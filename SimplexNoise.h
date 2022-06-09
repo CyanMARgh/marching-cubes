@@ -7,7 +7,6 @@ public:
     static float noise(float x, float y);
     static float noise(float x, float y, float z);
 
-    // Fractal/Fractional Brownian Motion (fBm) noise summation
     float fractal(size_t octaves, float x) const;
     float fractal(size_t octaves, float x, float y) const;
     float fractal(size_t octaves, float x, float y, float z) const;
